@@ -1,0 +1,28 @@
+{
+  "name": "pouchadmin",
+  "version": "1.0.0",
+  "description": "a tool for couchdb/pouchdb administration",
+  "main": "lib/lounger.js",
+  "bin": "./bin/lounger-cli",
+  "preferGlobal": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "couchdb",
+    "pouchdb"
+  ],
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "nopt": "^7.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "nock": "^13.5.4"
+  }
+}
